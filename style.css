@@ -60,6 +60,32 @@ body.dark {
         transform: scale(1);
     }
 }
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* المسافة بين الأيقونة والنص */
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #050505; /* لون النص */
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.menu-item .icon i {
+    font-size: 20px; /* حجم الأيقونة */
+    color: #1877f2; /* لون أزرق زي الفيسبوك */
+}
+
+.menu-item h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.menu-item:hover {
+    background-color: #e7f3ff; /* لون خلفية خفيف عند hover */
+    color: #1877f2;
+}
 
 .like-count {
     margin-left: 4px;
